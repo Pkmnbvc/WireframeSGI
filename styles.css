@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: white;
+}
+
+.section {
+  border: 1px dashed #ccc;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.nav, .hero, .services, .industries, .about, .contact, .footer {
+  min-height: 100px;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+}
+.hero {
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+.services .box,
+.industries .box {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #999;
+  background-color: white;
+}
+
